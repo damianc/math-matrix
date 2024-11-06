@@ -24,6 +24,7 @@ Support for matrices in JavaScript.
 ### Testing
 
 - `isSquare(M)` - checks if a matrix $M$ is the _square matrix_
+- `isEqual(A,B)` - checks if a matrix $A$ is equal to a matrix $B$
 
 ### Minors
 
