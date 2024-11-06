@@ -26,3 +26,12 @@ export function minorize(M,i,j) {
   
 	return m;
 }
+
+export function minorMatrix(M) {
+	assert.isSquareMatrix(M);
+	return M.map((row,i) => {
+		return row.map((_,j) => {
+			return minor(M,i+1,j+1);
+		});
+	});
+}
