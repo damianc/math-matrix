@@ -1,6 +1,6 @@
 import assert from '@assert';
 import transpose from './transpose';
-import minor from './minor';
+import { minor } from './minor';
 
 export default function det(M,R=1,pickRow=true) {
 	assert.isSquareMatrix(M);
