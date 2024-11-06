@@ -15,6 +15,7 @@ import {
 import { cofactorMatrix, cofactor } from './cofactor-matrix';
 import adjointMatrix from './adjoint-matrix';
 import { removeRow, removeColumn } from './remove-row-column';
+import { insertRow, insertColumn } from './insert-row-column';
 
 (function () {
   
@@ -37,7 +38,9 @@ import { removeRow, removeColumn } from './remove-row-column';
     cofactor,
     adjointMatrix,
     removeRow,
-    removeColumn
+    removeColumn,
+    insertRow,
+    insertColumn
   };
   
 })()
