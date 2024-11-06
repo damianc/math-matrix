@@ -21,11 +21,6 @@ Support for matrices in JavaScript.
 - `adjointMatrix(M)` - returns the _adjoint matrix_ for a matrix $M$
 - `inverseMatrix(M)` - returns the _inverse matrix_ for a matrix $M$
 
-### Testing
-
-- `isSquare(M)` - checks if a matrix $M$ is the _square matrix_
-- `isEqual(A,B)` - checks if a matrix $A$ is equal to a matrix $B$
-
 ### Minors
 
 - `minorMatrix(M)` - returns the _minor matrix_ for a matrix $M$
@@ -46,3 +41,8 @@ Support for matrices in JavaScript.
 - `insertColumn(M,j,column)` - returns a matrix $M$ with additional column inserted just before _j-th_ column
 - `swapRows(M,m,n)` - returns a matrix $M$ with _m-th_ and _n-th_ rows swapped
 - `swapColumns(M,m,n)` - returns a matrix $M$ with _m-th_ and _n-th_ columns swapped
+
+### Testing
+
+- `isSquare(M)` - checks if a matrix $M$ is the _square matrix_
+- `isEqual(A,B)` - checks if a matrix $A$ is equal to a matrix $B$
