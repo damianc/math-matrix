@@ -21,6 +21,10 @@ Support for matrices in JavaScript.
 - `adjointMatrix(M)` - returns the _adjoint matrix_ for a matrix $M$
 - `inverseMatrix(M)` - returns the _inverse matrix_ for a matrix $M$
 
+### Testing
+
+- `isSquare(M)` - checks if a matrix $M$ is the _square matrix_
+
 ### Minors
 
 - `minorMatrix(M)` - returns the _minor matrix_ for a matrix $M$
