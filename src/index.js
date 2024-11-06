@@ -11,6 +11,7 @@ import {
   initNullMatrix, initScalarMatrix, initIdentityMatrix
 } from './init-matrix';
 import { cofactorMatrix, cofactor } from './cofactor-matrix';
+import adjointMatrix from './adjoint-matrix';
 
 (function () {
   
@@ -29,7 +30,8 @@ import { cofactorMatrix, cofactor } from './cofactor-matrix';
     initScalarMatrix,
     initIdentityMatrix,
     cofactorMatrix,
-    cofactor
+    cofactor,
+    adjointMatrix
   };
   
 })()
