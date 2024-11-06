@@ -17,7 +17,7 @@ import adjointMatrix from './adjoint-matrix';
 import { removeRow, removeColumn } from './remove-row-column';
 import { insertRow, insertColumn } from './insert-row-column';
 import { swapRows, swapColumns } from './swap-rows-columns';
-import { isSquare } from './is-matrix';
+import { isSquare, isEqual } from './is-matrix';
 
 (function () {
   
@@ -45,7 +45,8 @@ import { isSquare } from './is-matrix';
     insertColumn,
     swapRows,
     swapColumns,
-    isSquare
+    isSquare,
+    isEqual
   };
   
 })()
