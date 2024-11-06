@@ -8,4 +8,4 @@ const assert = {
   isSquareMatrix
 };
 
-export assert;
+export default assert;
