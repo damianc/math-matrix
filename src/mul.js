@@ -1,4 +1,4 @@
-import { assert } from '@assert';
+import assert from '@assert';
 import order from './order';
 import { initNullMatrix } from './init-matrix';
 
