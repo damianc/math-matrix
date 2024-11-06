@@ -32,3 +32,10 @@ Support for matrices in JavaScript.
 - `initNullMatrix(m,n)` - creates a _null matrix_ of order $m \times n$
 - `initScalarMatrix(n,k=1)` - creates a _scalar matrix_ of order $n \times n$ with a scalar value $k$ on the diagonal
 - `initIdentityMatrix(n)` - creates an _identity matrix_ of order $n \times n$
+
+### Altering a Matrix
+
+- `removeRow(M,i)` - returns a matrix $M$ with _i-th_ row removed
+- `removeColumn(M,j)` - returns a matrix $M$ with _j-th_ column removed
+- `insertRow(M,i,row)` - returns a matrix $M$ with additional row inserted just before _i-th_ row
+- `insertColumn(M,j,column)` - returns a matrix $M$ with additional column inserted just before _j-th_ column
