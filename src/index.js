@@ -6,7 +6,9 @@ import order from './order';
 import trace from './trace';
 import det from './det';
 import transpose from './transpose';
-import { minor, minorize } from './minor';
+import {
+  minor, minorize, minorMatrix
+} from './minor';
 import {
   initNullMatrix, initScalarMatrix, initIdentityMatrix
 } from './init-matrix';
@@ -26,6 +28,7 @@ import adjointMatrix from './adjoint-matrix';
     transpose,
     minor,
     minorize,
+    minorMatrix,
     initNullMatrix,
     initScalarMatrix,
     initIdentityMatrix,
