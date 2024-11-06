@@ -1,6 +1,16 @@
 # Math.matrix
 Support for matrices in JavaScript.
 
+```
+const M = [
+  [1,2],
+  [3,4]
+];
+
+const determinant = Math.matrix.det(M);
+// -2
+```
+
 ## Functions
 
 ### Operations
