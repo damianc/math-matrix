@@ -10,6 +10,7 @@ import { minor, minorize } from './minor';
 import {
   initNullMatrix, initScalarMatrix, initIdentityMatrix
 } from './init-matrix';
+import { cofactorMatrix, cofactor } from './cofactor-matrix';
 
 (function () {
   
@@ -26,7 +27,9 @@ import {
     minorize,
     initNullMatrix,
     initScalarMatrix,
-    initIdentityMatrix
+    initIdentityMatrix,
+    cofactorMatrix,
+    cofactor
   };
   
 })()
