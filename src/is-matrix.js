@@ -5,7 +5,7 @@ export function isSquare(M) {
   return rows === cols;
 }
 
-function equal(A,B) {
+export function equal(A,B) {
 	const [rowsA,colsA] = order(A);
 	const [rowsB,colsB] = order(B);
 	if (
