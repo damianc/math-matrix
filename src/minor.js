@@ -7,7 +7,7 @@ export function minor(M,i,j) {
 }
 
 export function minorize(M,i,j) {
-	assert.minorable(M,i,j);
+	assert.isMinorable(M,i,j);
   
 	const [rows,cols] = order(M);
 	const m = [];
