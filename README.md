@@ -39,3 +39,5 @@ Support for matrices in JavaScript.
 - `removeColumn(M,j)` - returns a matrix $M$ with _j-th_ column removed
 - `insertRow(M,i,row)` - returns a matrix $M$ with additional row inserted just before _i-th_ row
 - `insertColumn(M,j,column)` - returns a matrix $M$ with additional column inserted just before _j-th_ column
+- `swapRows(M,m,n)` - returns a matrix $M$ with _m-th_ and _n-th_ rows swapped
+- `swapColumns(M,m,n)` - returns a matrix $M$ with _m-th_ and _n-th_ columns swapped
