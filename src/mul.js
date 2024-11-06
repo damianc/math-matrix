@@ -2,7 +2,7 @@ import { assert } from '@assert';
 import order from './order';
 import { initNullMatrix } from './init-matrix';
 
-export default function multiply(A,B) {
+export default function mul(A,B) {
   assert.multiplicableMatrices(A,B);
 	
   const [rowsA,colsA] = order(A);
