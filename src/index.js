@@ -18,6 +18,7 @@ import { removeRow, removeColumn } from './remove-row-column';
 import { insertRow, insertColumn } from './insert-row-column';
 import { swapRows, swapColumns } from './swap-rows-columns';
 import { isSquare, isEqual } from './is-matrix';
+import { getRow, getColumn } from './get-row-column';
 
 (function () {
   
@@ -46,7 +47,9 @@ import { isSquare, isEqual } from './is-matrix';
     swapRows,
     swapColumns,
     isSquare,
-    isEqual
+    isEqual,
+    getRow,
+    getColumn
   };
   
 })()
