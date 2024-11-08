@@ -51,6 +51,8 @@ const determinant = Math.matrix.det(M);
 - `insertColumn(M,j,column)` - returns a matrix $M$ with additional column inserted just before _j-th_ column
 - `swapRows(M,m,n)` - returns a matrix $M$ with _m-th_ and _n-th_ rows swapped
 - `swapColumns(M,m,n)` - returns a matrix $M$ with _m-th_ and _n-th_ columns swapped
+- `getRow(M,i)` - returns _i-th_ row of a matrix $M$
+- `getColumn(M,j)` - returns _j-th_ column of a matrix $M$
 
 ### Testing
 
